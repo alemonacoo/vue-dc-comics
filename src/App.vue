@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import HeaderComponent from './components/header/HeaderComponent.vue'
-import MainComponent from './components/main/MainComponent.vue'
-import FooterComponent from './components/footer/FooterComponent.vue'
+import HeaderComponent from '@/components/header/HeaderComponent.vue'
+import MainComponent from '@/components/main/MainComponent.vue'
+import FooterComponent from '@/components/footer/FooterComponent.vue'
 
 
 export default {
@@ -26,6 +26,7 @@ export default {
 
 <style lang="scss">
 *{
+  font-family: 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
