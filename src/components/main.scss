@@ -1,0 +1,14 @@
+$dc-blue: rgb(23, 133, 245);
+
+@mixin my-width{
+    padding: 10px 10%;
+}
+
+@mixin flex-row{
+    display: flex;
+}
+
+@mixin flex-col{
+    display: flex;
+    flex-direction: column;
+}
