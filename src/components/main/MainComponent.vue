@@ -15,7 +15,7 @@ main{
   @include my-width;
   @include flex-row;
   align-items: center;
-  min-height: 20vh;
+  min-height: 15vh;
   color: white;
   background-color: black;
 }

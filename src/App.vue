@@ -4,8 +4,6 @@
     <MainComponent/>
     <FooterComponent/>
 
-
-
   </div>
 </template>
 
