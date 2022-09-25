@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../main.scss';
+@import '@/components/main.scss';
 div{
     @include my-width;
     @include flex-row;

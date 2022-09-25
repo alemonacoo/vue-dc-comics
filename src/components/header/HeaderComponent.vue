@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../main.scss';
+@import '@/components/main.scss';
 header{
     @include my-width;
     @include flex-row;
