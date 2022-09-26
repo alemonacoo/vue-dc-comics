@@ -1,10 +1,20 @@
 <template>
-  <main>Content Goes Here !</main>
+  <main>
+    <div class="wallpaper"></div>
+    <div class="comics-container"></div>
+  </main>
 </template>
 
 <script>
+
 export default {
-    name: 'MainComponent'
+    name: 'MainComponent',
+    props:{
+      comics: Array
+    },  
+    mounted() {
+    console.log(this.comics);
+  },
 
 }
 </script>
