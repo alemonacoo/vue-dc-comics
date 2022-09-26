@@ -20,10 +20,8 @@
                 <li>
             <img src="../../assets/img/buy-dc-power-visa.svg" alt="">
             <p>Descrizione</p>
-        </li>
-        
+        </li>    
     </ul>
-
 </div>
 </template>
 
@@ -40,8 +38,10 @@ div{
     @include my-width;
     @include flex-row;
     background-color: $dc-blue;
+    width: 100vw;
     ul{
         @include flex-row;
+        width: 100%;
         list-style-type: none;
         justify-content: space-evenly;
         li{
